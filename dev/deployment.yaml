@@ -13,7 +13,7 @@ spec:
         app: myapp
     spec:
       containers:
-      - name: apache
-        image: docker.io/satyam0786/argocd:4
+      - name: nginx
+        image: docker.io/pashik/test2:latest
         ports:
         - containerPort: 80
