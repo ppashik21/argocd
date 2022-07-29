@@ -1,1 +1,3 @@
-
+kustomize:
+  images:
+  - docker.io/pashik/test2:latest
